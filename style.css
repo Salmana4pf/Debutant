@@ -1,0 +1,83 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#1e293b;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:#e2e8f0;
+}
+
+.hero button{
+padding:10px 20px;
+font-size:16px;
+cursor:pointer;
+}
+
+.produits{
+padding:40px;
+text-align:center;
+}
+
+.grid{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.carreau{
+background:white;
+padding:15px;
+border-radius:10px;
+width:250px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.carreau img{
+width:100%;
+border-radius:10px;
+}
+
+.carreau button{
+background:#22c55e;
+border:none;
+padding:10px;
+color:white;
+cursor:pointer;
+}
+
+.contact{
+background:#e2e8f0;
+text-align:center;
+padding:40px;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:10px;
+}
